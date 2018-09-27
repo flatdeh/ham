@@ -1,0 +1,43 @@
+.features {
+  display: flex;
+}
+
+.feature {
+  display: flex;
+  flex: 0 1 480px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 367px;
+
+  &__img {
+    padding-bottom: 48px;
+  }
+
+  &__text {
+    font-size: $font-size-big;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &-green {
+      color: $java;
+    }
+
+    &-white {
+      padding-top: 22px;
+      color: $white;
+    }
+  }
+
+  &-green {
+    background-color: $java;
+    border-top: 7px solid $white;
+  }
+
+  &-black {
+    background-color: #1c2a33;
+    border-top: 7px solid $java;
+  }
+
+}
+

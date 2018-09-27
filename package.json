@@ -1,0 +1,28 @@
+{
+  "name": "ham-step-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "dev": "^0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-js-minify": "0.0.3",
+    "gulp-sass": "^4.0.1",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-cache": "^1.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}

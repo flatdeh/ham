@@ -1,0 +1,18 @@
+.footer {
+  background-color: #22353f;
+  font-size: $font-size-small;
+  font-weight: 300;
+  text-align: center;
+  padding: 47px 0;
+
+  &__text {
+    color: #aeaeae;
+    text-transform: capitalize;
+    margin: 0;
+  }
+
+  &__link {
+    color: $java;
+    text-transform: none;
+  }
+}

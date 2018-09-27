@@ -1,0 +1,29 @@
+.purchase {
+  padding: 126px 0;
+  background: url('../img/background_purchase.png') no-repeat;
+  background-size: cover;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    color: $java;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 35px 0;
+  }
+
+  &__description {
+    color: #d8d8d8;
+    font-size: $font-size-medium;
+    font-weight: 400;
+    margin: 0 0 80px 0;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+  }
+}
